@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<analysisEngineDescription xmlns="http://uima.apache.org/resourceSpecifier">
+  <frameworkImplementation>org.apache.uima.java</frameworkImplementation>
+  <primitive>false</primitive>  
+  <delegateAnalysisEngineSpecifiers>
+    <delegateAnalysisEngine key="scnlp-shenwu-client">
+      <import name="scnlp-shenwu-client"/>
+    </delegateAnalysisEngine>
+    <delegateAnalysisEngine key="TestElementAnnotatorDescriptor">
+      <import name="TestElementAnnotatorDescriptor"/>
+    </delegateAnalysisEngine>
+  <delegateAnalysisEngine key="EvaluatorDescriptor">
+      <import name="EvaluatorDescriptor"/>
+    </delegateAnalysisEngine>
+  <delegateAnalysisEngine key="NGramAnnotatorDescriptor">
+      <import name="NGramAnnotatorDescriptor"/>
+    </delegateAnalysisEngine>
+  <delegateAnalysisEngine key="TokenAnnotatorDescriptor">
+      <import name="TokenAnnotatorDescriptor"/>
+    </delegateAnalysisEngine>
+
+    <delegateAnalysisEngine key="AnswerScoreAnnotatorDescriptor">
+      <import name="AnswerScoreAnnotatorDescriptor"/>
+    </delegateAnalysisEngine>
+  </delegateAnalysisEngineSpecifiers>
+  <analysisEngineMetaData>
+    <name>testDescriptor</name>
+    <description>Aggregated AE. Combined TestElementAnnotator, TokenElementAnnotator, NGramAnnotator, Answer  ScoreAnnotator and Evaluator with the fixed order, and output all the annotation</description>
+    <version>1.0</version>
+    <vendor/>
+    <configurationParameters searchStrategy="language_fallback"/>
+    <configurationParameterSettings/>
+    <flowConstraints>
+      <fixedFlow>
+        <node>TestElementAnnotatorDescriptor</node>
+        <node>TokenAnnotatorDescriptor</node>
+      <node>NGramAnnotatorDescriptor</node>
+      <node>AnswerScoreAnnotatorDescriptor</node>
+      </fixedFlow>
+    </flowConstraints>
+    <typePriorities/>
+    <fsIndexCollection/>
+    <capabilities>
+      <capability>
+        <inputs>
+          <type allAnnotatorFeatures="true">edu.cmu.deiis.types.Annotation</type>
+        </inputs>
+        <outputs>
+          <type allAnnotatorFeatures="true">edu.cmu.deiis.types.Token</type>
+        <type allAnnotatorFeatures="true">edu.cmu.deiis.types.Question</type>
+          <type allAnnotatorFeatures="true">edu.cmu.deiis.types.AnswerScore</type>
+          <type allAnnotatorFeatures="true">edu.cmu.deiis.types.Answer</type>
+        <type allAnnotatorFeatures="true">edu.cmu.deiis.types.NGram</type>
+        </outputs>
+        <languagesSupported/>
+      </capability>
+    </capabilities>
+  <operationalProperties>
+      <modifiesCas>true</modifiesCas>
+      <multipleDeploymentAllowed>true</multipleDeploymentAllowed>
+      <outputsNewCASes>false</outputsNewCASes>
+    </operationalProperties>
+  </analysisEngineMetaData>
+  <resourceManagerConfiguration/>
+</analysisEngineDescription>

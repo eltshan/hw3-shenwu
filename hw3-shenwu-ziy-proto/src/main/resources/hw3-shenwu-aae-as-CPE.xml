@@ -9,16 +9,28 @@
                 <nameValuePair>
                     <name>InputDirectory</name>
                     <value>
-                        <string>C:\Users\Eltshan\git\hw3-shenwu\hw3-shenwu-ziy-proto\src\main\resources\inputData</string>
+                        <string>C:\Users\Eltshan\git\hw3-shenwu-final-submit\hw3-shenwu-ziy-proto\src\main\resources\inputData</string>
                     </value>
                 </nameValuePair>
             </configurationParameterSettings>
         </collectionIterator>
     </collectionReader>
     <casProcessors casPoolSize="3" processingUnitThreadCount="1">
-        <casProcessor deployment="integrated" name="NewFile.xml">
+        <casProcessor deployment="integrated" name="scnlp-shenwu-client.xml">
             <descriptor>
-                <import location="NewFile.xml"/>
+                <import location="scnlp-shenwu-client.xml"/>
+            </descriptor>
+            <deploymentParameters/>
+            <errorHandling>
+                <errorRateThreshold action="terminate" value="0/1000"/>
+                <maxConsecutiveRestarts action="terminate" value="30"/>
+                <timeout max="100000" default="-1"/>
+            </errorHandling>
+            <checkpoint batch="10000" time="1000ms"/>
+        </casProcessor>
+        <casProcessor deployment="integrated" name="testDescriptor">
+            <descriptor>
+                <import location="hw2-shenwu-aae.xml"/>
             </descriptor>
             <deploymentParameters/>
             <errorHandling>

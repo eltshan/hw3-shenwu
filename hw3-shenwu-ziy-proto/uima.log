@@ -1,170 +1,158 @@
-13-10-6 13:55:58 - 10: org.apache.uima.adapter.jms.client.BaseUIMAAsynchronousEngine_impl.<init>(128): 佚連: UIMA Version 2.4.0 UIMA-AS Version 2.4.0
-13-10-6 13:55:59 - 10: org.apache.uima.adapter.jms.client.BaseUIMAAsynchronousEngine_impl.setupConnection: 佚連: UIMA AS Client Created Shared Connection To Broker: tcp://mu.lti.cs.cmu.edu:61616
-13-10-6 13:55:59 - 10: org.apache.uima.adapter.jms.client.BaseUIMAAsynchronousEngine_impl.initializeProducer: 佚連: Initializing JMS Message Producer. Broker: tcp://mu.lti.cs.cmu.edu:61616 Queue Name: ScnlpQueue
-13-10-6 13:55:59 - 10: org.apache.uima.adapter.jms.client.BaseUIMAAsynchronousEngine_impl.initializeConsumer: 佚連: Initializing JMS Message Consumer. Broker: tcp://mu.lti.cs.cmu.edu:61616 Queue Name: ID:Eltshan-PC-65436-1381038959257-0:0:1
-13-10-6 13:55:59 - 10: org.apache.uima.adapter.jms.client.BaseUIMAAsynchronousEngine_impl.initialize: 佚連: Asynchronous Client Has Been Initialized. Serialization Strategy: [xmi] Ready To Process.
-13-10-6 13:56:22 - 11: org.apache.uima.adapter.jms.client.BaseUIMAAsynchronousEngine_impl.<init>(128): 佚連: UIMA Version 2.4.0 UIMA-AS Version 2.4.0
-13-10-6 13:56:22 - 11: org.apache.uima.adapter.jms.client.BaseUIMAAsynchronousEngine_impl.initializeProducer: 佚連: Initializing JMS Message Producer. Broker: tcp://mu.lti.cs.cmu.edu:61616 Queue Name: ScnlpQueue
-13-10-6 13:56:22 - 11: org.apache.uima.adapter.jms.client.BaseUIMAAsynchronousEngine_impl.initializeConsumer: 佚連: Initializing JMS Message Consumer. Broker: tcp://mu.lti.cs.cmu.edu:61616 Queue Name: ID:Eltshan-PC-65436-1381038959257-0:0:2
-13-10-6 13:56:23 - 11: org.apache.uima.adapter.jms.client.BaseUIMAAsynchronousEngine_impl.initialize: 佚連: Asynchronous Client Has Been Initialized. Serialization Strategy: [xmi] Ready To Process.
-13-10-6 13:56:24 - 12: org.apache.uima.adapter.jms.client.BaseUIMAAsynchronousEngineCommon_impl.stop: 佚連: Stopping Asynchronous Client.
-13-10-6 13:56:24 - 12: org.apache.uima.adapter.jms.client.BaseUIMAAsynchronousEngineCommon_impl.stop: 佚連: Asynchronous Client Has Stopped.
-13-10-6 13:56:24 - 12: org.apache.uima.adapter.jms.client.BaseUIMAAsynchronousEngineCommon_impl$SharedConnection.destroy: 佚連: UIMA AS Client Terminated. Shared Connection Still Open. Current Client Count:1
-13-10-6 13:56:24 - 12: org.apache.uima.adapter.jms.client.BaseUIMAAsynchronousEngine_impl.stop: 佚連: UIMA AS Client Undeployed All Containers
-13-10-6 13:56:46 - 13: org.apache.uima.adapter.jms.client.BaseUIMAAsynchronousEngine_impl.<init>(128): 佚連: UIMA Version 2.4.0 UIMA-AS Version 2.4.0
-13-10-6 13:56:46 - 13: org.apache.uima.adapter.jms.client.BaseUIMAAsynchronousEngine_impl.initializeProducer: 佚連: Initializing JMS Message Producer. Broker: tcp://mu.lti.cs.cmu.edu:61616 Queue Name: ScnlpQueue
-13-10-6 13:56:46 - 13: org.apache.uima.adapter.jms.client.BaseUIMAAsynchronousEngine_impl.initializeConsumer: 佚連: Initializing JMS Message Consumer. Broker: tcp://mu.lti.cs.cmu.edu:61616 Queue Name: ID:Eltshan-PC-65436-1381038959257-0:0:3
-13-10-6 13:56:47 - 13: org.apache.uima.adapter.jms.client.BaseUIMAAsynchronousEngine_impl.initialize: 佚連: Asynchronous Client Has Been Initialized. Serialization Strategy: [xmi] Ready To Process.
-13-10-6 13:56:47 - 13: org.apache.uima.adapter.jms.client.BaseUIMAAsynchronousEngine_impl.<init>(128): 佚連: UIMA Version 2.4.0 UIMA-AS Version 2.4.0
-13-10-6 13:56:47 - 13: org.apache.uima.adapter.jms.client.BaseUIMAAsynchronousEngine_impl.initializeProducer: 佚連: Initializing JMS Message Producer. Broker: tcp://mu.lti.cs.cmu.edu:61616 Queue Name: ScnlpQueue
-13-10-6 13:56:47 - 13: org.apache.uima.adapter.jms.client.BaseUIMAAsynchronousEngine_impl.initializeConsumer: 佚連: Initializing JMS Message Consumer. Broker: tcp://mu.lti.cs.cmu.edu:61616 Queue Name: ID:Eltshan-PC-65436-1381038959257-0:0:4
-13-10-6 13:56:48 - 13: org.apache.uima.adapter.jms.client.BaseUIMAAsynchronousEngine_impl.initialize: 佚連: Asynchronous Client Has Been Initialized. Serialization Strategy: [xmi] Ready To Process.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:48 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 14: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
-13-10-6 13:56:50 - 15: org.apache.uima.adapter.jms.client.BaseUIMAAsynchronousEngineCommon_impl.stop: 佚連: Stopping Asynchronous Client.
-13-10-6 13:56:50 - 15: org.apache.uima.adapter.jms.client.BaseUIMAAsynchronousEngineCommon_impl.stop: 佚連: Asynchronous Client Has Stopped.
-13-10-6 13:56:50 - 15: org.apache.uima.adapter.jms.client.BaseUIMAAsynchronousEngineCommon_impl$SharedConnection.destroy: 佚連: UIMA AS Client Terminated. Shared Connection Still Open. Current Client Count:2
-13-10-6 13:56:50 - 15: org.apache.uima.adapter.jms.client.BaseUIMAAsynchronousEngine_impl.stop: 佚連: UIMA AS Client Undeployed All Containers
-13-10-6 13:56:50 - 15: org.apache.uima.adapter.jms.client.BaseUIMAAsynchronousEngineCommon_impl.stop: 佚連: Stopping Asynchronous Client.
-13-10-6 13:56:50 - 15: org.apache.uima.adapter.jms.client.BaseUIMAAsynchronousEngineCommon_impl.stop: 佚連: Asynchronous Client Has Stopped.
-13-10-6 13:56:50 - 15: org.apache.uima.adapter.jms.client.BaseUIMAAsynchronousEngineCommon_impl$SharedConnection.destroy: 佚連: UIMA AS Client Terminated. Shared Connection Still Open. Current Client Count:1
-13-10-6 13:56:50 - 15: org.apache.uima.adapter.jms.client.BaseUIMAAsynchronousEngine_impl.stop: 佚連: UIMA AS Client Undeployed All Containers
+13-10-6 13:58:33 - 10: org.apache.uima.adapter.jms.client.BaseUIMAAsynchronousEngine_impl.<init>(128): 佚連: UIMA Version 2.4.0 UIMA-AS Version 2.4.0
+13-10-6 13:58:33 - 10: org.apache.uima.adapter.jms.client.BaseUIMAAsynchronousEngine_impl.setupConnection: 佚連: UIMA AS Client Created Shared Connection To Broker: tcp://mu.lti.cs.cmu.edu:61616
+13-10-6 13:58:33 - 10: org.apache.uima.adapter.jms.client.BaseUIMAAsynchronousEngine_impl.initializeProducer: 佚連: Initializing JMS Message Producer. Broker: tcp://mu.lti.cs.cmu.edu:61616 Queue Name: ScnlpQueue
+13-10-6 13:58:33 - 10: org.apache.uima.adapter.jms.client.BaseUIMAAsynchronousEngine_impl.initializeConsumer: 佚連: Initializing JMS Message Consumer. Broker: tcp://mu.lti.cs.cmu.edu:61616 Queue Name: ID:Eltshan-PC-65489-1381039113352-0:0:1
+13-10-6 13:58:34 - 10: org.apache.uima.adapter.jms.client.BaseUIMAAsynchronousEngine_impl.initialize: 佚連: Asynchronous Client Has Been Initialized. Serialization Strategy: [xmi] Ready To Process.
+13-10-6 13:58:34 - 10: org.apache.uima.adapter.jms.client.BaseUIMAAsynchronousEngine_impl.<init>(128): 佚連: UIMA Version 2.4.0 UIMA-AS Version 2.4.0
+13-10-6 13:58:34 - 10: org.apache.uima.adapter.jms.client.BaseUIMAAsynchronousEngine_impl.initializeProducer: 佚連: Initializing JMS Message Producer. Broker: tcp://mu.lti.cs.cmu.edu:61616 Queue Name: ScnlpQueue
+13-10-6 13:58:34 - 10: org.apache.uima.adapter.jms.client.BaseUIMAAsynchronousEngine_impl.initializeConsumer: 佚連: Initializing JMS Message Consumer. Broker: tcp://mu.lti.cs.cmu.edu:61616 Queue Name: ID:Eltshan-PC-65489-1381039113352-0:0:2
+13-10-6 13:58:34 - 10: org.apache.uima.adapter.jms.client.BaseUIMAAsynchronousEngine_impl.initialize: 佚連: Asynchronous Client Has Been Initialized. Serialization Strategy: [xmi] Ready To Process.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:35 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:36 - 11: org.apache.uima.cas.impl.XmiCasSerializer$XmiCasDocSerializer.reportWarning(211): 少御: Warning: multiple references to an array.  Reference identity will not be preserved in XMI.
+13-10-6 13:58:37 - 12: org.apache.uima.adapter.jms.client.BaseUIMAAsynchronousEngineCommon_impl.stop: 佚連: Stopping Asynchronous Client.
+13-10-6 13:58:37 - 12: org.apache.uima.adapter.jms.client.BaseUIMAAsynchronousEngineCommon_impl.stop: 佚連: Asynchronous Client Has Stopped.
+13-10-6 13:58:37 - 12: org.apache.uima.adapter.jms.client.BaseUIMAAsynchronousEngineCommon_impl$SharedConnection.destroy: 佚連: UIMA AS Client Terminated. Shared Connection Still Open. Current Client Count:1
+13-10-6 13:58:37 - 12: org.apache.uima.adapter.jms.client.BaseUIMAAsynchronousEngine_impl.stop: 佚連: UIMA AS Client Undeployed All Containers
+13-10-6 13:58:37 - 12: org.apache.uima.adapter.jms.client.BaseUIMAAsynchronousEngineCommon_impl.stop: 佚連: Stopping Asynchronous Client.
+13-10-6 13:58:37 - 12: org.apache.uima.adapter.jms.client.BaseUIMAAsynchronousEngineCommon_impl.stop: 佚連: Asynchronous Client Has Stopped.
+13-10-6 13:58:37 - 12: org.apache.uima.adapter.jms.client.BaseUIMAAsynchronousEngineCommon_impl$SharedConnection.destroy: 佚連: UIMA AS Client Shared Connection Has Been Closed   
+13-10-6 13:58:37 - 12: org.apache.uima.adapter.jms.client.BaseUIMAAsynchronousEngine_impl.stop: 佚連: UIMA AS Client Undeployed All Containers

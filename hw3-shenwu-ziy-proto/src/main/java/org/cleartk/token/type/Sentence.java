@@ -11,8 +11,8 @@ import org.cleartk.score.type.ScoredAnnotation;
 
 
 /** 
- * Updated by JCasGen Wed Oct 02 03:56:33 CST 2013
- * XML source: C:/Users/Eltshan/git/hw3-shenwu/hw3-shenwu-ziy-proto/src/main/resources/hw2-shenwu-aae.xml
+ * Updated by JCasGen Sun Oct 06 22:33:47 CST 2013
+ * XML source: C:/Users/Eltshan/git/hw3-shenwu-final-submit/hw3-shenwu-ziy-proto/src/main/resources/hw2-shenwu-aae.xml
  * @generated */
 public class Sentence extends ScoredAnnotation {
   /** @generated

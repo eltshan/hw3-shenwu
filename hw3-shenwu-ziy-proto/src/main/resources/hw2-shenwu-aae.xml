@@ -19,9 +19,6 @@
   <delegateAnalysisEngine key="EvaluatorDescriptor">
       <import name="descriptors.EvaluatorDescriptor"/>
     </delegateAnalysisEngine>
-  <delegateAnalysisEngine key="scnlp-shenwu-client">
-      <import name="scnlp-shenwu-client"/>
-    </delegateAnalysisEngine>
   </delegateAnalysisEngineSpecifiers>
   <analysisEngineMetaData>
     <name>testDescriptor</name>
@@ -35,7 +32,6 @@
         <node>TestElementAnnotatorDescriptor</node>
         <node>TokenAnnotatorDescriptor</node>
       <node>NGramAnnotatorDescriptor</node>
-      <node>scnlp-shenwu-client</node>
       <node>AnswerScoreAnnotatorDescriptor</node>
       <node>EvaluatorDescriptor</node>
       </fixedFlow>

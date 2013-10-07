@@ -81,7 +81,7 @@ public class Evaluator extends JCasAnnotator_ImplBase {
 
     }
     precision = right / (right + wrong);
-    System.out.print("Presion at " + at + " " + ":" + " " + precision); // print precision
+    System.out.println("Presion at " + at + " " + ":" + " " + precision); // print precision
   }
 
 }

@@ -17,7 +17,7 @@ import edu.cmu.deiis.types.AnswerScore;
 import edu.cmu.deiis.types.NGram;
 import edu.cmu.deiis.types.Question;
 import edu.stanford.nlp.ling.Word;
-import edu.stanford.nlp.objectbank.TokenizerFactory;
+//import edu.stanford.nlp.objectbank.TokenizerFactory;
 import edu.stanford.nlp.process.Tokenizer;
 import edu.stanford.nlp.process.PTBTokenizer.PTBTokenizerFactory;
 
@@ -31,7 +31,7 @@ public class AnswerScoreAnnotator extends JCasAnnotator_ImplBase {
     // TODO Auto-generated method stub
     String text = aJCas.getDocumentText();
 
-    TokenizerFactory<Word> factory = PTBTokenizerFactory.newTokenizerFactory();
+    edu.stanford.nlp.process.TokenizerFactory<Word> factory = PTBTokenizerFactory.newTokenizerFactory();
     // the thing that can generate tokens
 
     FSIndex questionIndex = aJCas.getAnnotationIndex(Question.type);// question Iterator

@@ -100,7 +100,7 @@
 		</dependency>
 	</dependencies>
 	<scm>
-		<connection>scm:git:git@github.com:eltshan/shenwu-hw3.git</connection>
-		<developerConnection>scm:git:git@github.com:eltshan/shenwu-hw3.git</developerConnection>
+		<connection>scm:git:git@github.com:eltshan/hw2-shenwu.git</connection>
+		<developerConnection>scm:git:git@github.com:eltshan/hw2-shenwu.git</developerConnection>
 	</scm>
 </project>

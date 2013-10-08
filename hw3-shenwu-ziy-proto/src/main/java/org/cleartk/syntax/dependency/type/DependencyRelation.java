@@ -11,7 +11,7 @@ import org.cleartk.score.type.ScoredTOP;
 
 
 /** 
- * Updated by JCasGen Sun Oct 06 22:33:46 CST 2013
+ * Updated by JCasGen Tue Oct 08 08:05:37 CST 2013
  * XML source: C:/Users/Eltshan/git/hw3-shenwu-final-submit/hw3-shenwu-ziy-proto/src/main/resources/hw2-shenwu-aae.xml
  * @generated */
 public class DependencyRelation extends ScoredTOP {

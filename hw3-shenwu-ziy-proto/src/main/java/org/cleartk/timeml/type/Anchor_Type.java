@@ -14,7 +14,7 @@ import org.apache.uima.cas.Feature;
 import org.cleartk.score.type.ScoredAnnotation_Type;
 
 /** 
- * Updated by JCasGen Sun Oct 06 22:33:47 CST 2013
+ * Updated by JCasGen Tue Oct 08 08:05:37 CST 2013
  * @generated */
 public class Anchor_Type extends ScoredAnnotation_Type {
   /** @generated */

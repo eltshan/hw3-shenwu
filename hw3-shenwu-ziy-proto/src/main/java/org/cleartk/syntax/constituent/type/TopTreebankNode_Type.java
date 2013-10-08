@@ -13,7 +13,7 @@ import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 
 /** 
- * Updated by JCasGen Sun Oct 06 22:33:46 CST 2013
+ * Updated by JCasGen Tue Oct 08 08:05:37 CST 2013
  * @generated */
 public class TopTreebankNode_Type extends TreebankNode_Type {
   /** @generated */

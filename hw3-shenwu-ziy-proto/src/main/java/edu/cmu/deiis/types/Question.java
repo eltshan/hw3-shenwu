@@ -10,7 +10,7 @@ import org.apache.uima.jcas.cas.TOP_Type;
 
 
 /** 
- * Updated by JCasGen Sun Oct 06 22:33:46 CST 2013
+ * Updated by JCasGen Tue Oct 08 08:05:36 CST 2013
  * XML source: C:/Users/Eltshan/git/hw3-shenwu-final-submit/hw3-shenwu-ziy-proto/src/main/resources/hw2-shenwu-aae.xml
  * @generated */
 public class Question extends Annotation {
